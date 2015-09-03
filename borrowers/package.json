@@ -9,7 +9,7 @@
   },
   "scripts": {
     "setup": "npm install && bower install",
-    "start": "ember server",
+    "start": "ember server --proxy http://api.ember-cli-101.com",
     "build": "ember build",
     "test": "ember test"
   },
